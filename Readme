@@ -43,4 +43,4 @@ Algunos de estos desafíos los pude implementar; con un poco más de práctica e
 8. Prevención de nombres duplicados
  Problema: No se verifica si los nombres ingresados se repiten.  Solución: Implementar una verificación que evite duplicados y notifique al usuario.
 
-¡Espero seguir mejorando y aplicando estos aprendizajes en futuros proyectos! 
+
