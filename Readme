@@ -1,1 +1,46 @@
-Primera version del desafio Amigo Secreto
+Challenge_Amigo_Secreto
+
+Desafio de Curso Alura
+
+ Reame
+Este apartado es parte de una evaluación de los conocimientos adquiridos en el curso de programación de Alura, llamado "Challenger: Amigo Secreto".
+
+* Archivos incluidos
+* HTML
+* CSS
+* JavaScript
+
+El curso nos proporcionó los archivos HTML y CSS para el desafío, permitiéndonos enfocarnos en la implementación de JavaScript.
+
+Explicación del funcionamiento
+El usuario ingresa el nombre de un amigo y presiona el botón "Añadir".
+Los nombres ingresados se muestran en pantalla uno a uno.
+Una vez completada la lista, se realiza el sorteo aleatorio al presionar el botón "Sorteo".
+* Desafíos y optimización
+Algunos de estos desafíos los pude implementar; con un poco más de práctica en el futuro, espero lograr optimizar el proyecto al 100%.
+
+1. Claridad en la interfaz
+ Problema: Al probar con amigos y familiares, algunos no comprendieron el funcionamiento con la información disponible en la página.  Solución: Implementar una alerta informativa con instrucciones claras.
+
+2. Cantidad de participantes
+ Problema: Dependiendo del nivel de interés o socialización, los usuarios añadían una cantidad variable de amigos.  Solución: Establecer un mínimo y un máximo de participantes para asegurar una mejor experiencia.
+
+3. Validación de entrada
+ Problema: Algunos usuarios presionaban el botón sin ingresar un nombre.  Solución: Incluir una alerta que indique la necesidad de escribir un nombre antes de continuar.
+
+4. Orden visual post-sorteo
+ Problema: Los nombres ingresados permanecían en pantalla tras el sorteo, restando protagonismo al nombre ganador.  Solución: Ocultar los nombres previos al sorteo y eliminarlos tras un tiempo determinado.
+
+5. Diferenciación del ganador
+ Problema: El nombre del ganador aparecía con un formato similar al de otros elementos de la página. Solución: Modificar el CSS para resaltar el nombre ganador con un tamaño, fuente y color distintivos.
+
+6. Accesibilidad
+ Problema: El programa puede no ser completamente accesible para personas con discapacidad visual o problemas de motricidad.  Solución: Asegurar que los botones sean fácilmente clickeables, usar etiquetas ARIA y permitir ingreso por teclado.
+
+7. Reinicio del sorteo
+ Problema: Actualmente, si un usuario quiere volver a realizar el sorteo, no hay una opción clara para hacerlo.  Solución: Agregar un botón de “Reiniciar” que borre los datos y permita comenzar de nuevo sin recargar la página.
+
+8. Prevención de nombres duplicados
+ Problema: No se verifica si los nombres ingresados se repiten.  Solución: Implementar una verificación que evite duplicados y notifique al usuario.
+
+¡Espero seguir mejorando y aplicando estos aprendizajes en futuros proyectos! 
